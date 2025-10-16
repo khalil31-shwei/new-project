@@ -1,9 +1,14 @@
+*{
+  margin: 0;
+}
+
 section { display: flex;
 justify-content: space-around;
 align-items: center;
 background-color: #022c22;
 border-radius:30px ;
 height: 320px;
+margin-bottom: 30px;
 }
 
 .button { display: flex;  
@@ -28,24 +33,31 @@ font-weight: inherit;
 .line { color: #e8e6e3;
   font-size: 1.125rem;
   font-family: Figtree, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-
 }
 
+
 a{ text-decoration: none;}
+
 li { list-style: none;
  
 
 color: black;
-padding-bottom: 10px;
-}
-footer { padding-top: 40px;
-background-color: rgb(255, 247, 237);
+padding-bottom: 30px;
 }
 
-.logo { padding-bottom: 240px;}
+footer { padding-top: 40px;
+background-color: rgb(255, 247, 237);
+background-image: url(https://themewagon.github.io/FaunaFlora/fauna-assets/footer/waves-lines-left-bottom.png);
+background-repeat: no-repeat;
+background-position: bottom left ;
+h2{ padding-bottom: 10px;}
+}
+
+.logo { padding-bottom: 270px;}
 
 .footerlist { display: flex;
 justify-content: space-around; 
+
  }
 
 .carre{ 
@@ -55,8 +67,17 @@ width: 350px;
 height: 300px;
 text-align: left;
  padding-left: 60px;
-margin-top: 40px;
+ h3{
+  padding-top: 25px;
+ padding-bottom: 20px;
  }
+ p{
+  padding-bottom: 20px;
+ }
+
+
+ }
+
 
  .button2 {   background-color:  #4f6909;
               border-radius: 50px;
@@ -64,6 +85,7 @@ margin-top: 40px;
               padding: 12px 100px;
               border: none;
               color: rgb(255, 255, 255);
+              
    }
  
    .input { background-color: gray;
@@ -82,5 +104,5 @@ justify-content: space-between;
 align-items: center;
 padding-top: 40px;
 margin-left: 20px;
-margin-bottom: 60px;
+
 }
